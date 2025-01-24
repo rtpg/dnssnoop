@@ -9,7 +9,7 @@ This can be used to audit what sort of domains your programs are reaching out to
 ## DNS Schema
 
 |Field|Type|Description|
-------------------------
+------|----|-----------|
 | `pid`         | `int`    | The process ID |
 | `name`        | `string` |          Foo      |
 | `lib_func`    | `string` | The library function called to do the resolution(for example `gethostbyname`) |
