@@ -19,7 +19,10 @@ This can be used to audit what sort of domains your programs are reaching out to
 
 ## Query Example
 
-Seeing what events are being called, 
+Seeing what events are being called, assuming you have also added `execsnoop`.
+
+This query assumes you put `dnssnoop` data into `dns_call` and `execsnoop` data into the `execsnoop` table
+
 ``` sql
 with dns_data as (
     select 
